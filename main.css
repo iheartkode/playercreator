@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+#explore, #char-sheet {
+    display: none;
+}
+
+hr {
+    margin: 10px 0;
+    padding: 0;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+

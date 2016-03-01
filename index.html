@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="char-sheet">
+        <h1>Character Sheet</h1>
+        <p id="output"></p>
+      </div>
+   
+    <div id="new-player">
+      <h1>Player Creator 1.0</h1>
+      <input type="text" id="name" placeholder="Player Name"/>
+      <select id="caste">
+        <option value="Warrior">Warrior</option>
+        <option value="Ranger">Ranger</option>
+        <option value="Mage">Mage</option>
+      </select>
+      <button id="create-player">Create Player</button>
+    </div>
+    
+    
+    <br><br>
+    <button id="explore">Explore</button>
+    <p id="new-stats"></p>
+  </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.js"></script>
+    <script type="text/javascript" src="player.js"></script>
+  </body>
+</html>
