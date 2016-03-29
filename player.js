@@ -1,3 +1,5 @@
+// we used contructor functions because we were exloring multiple ways to create objects
+
 function Player(caste, name) {
   this.name = name;
   this.hp = 100;
